@@ -1,0 +1,39 @@
+Status: Succeeded
+Test Event Name: S3_URI
+
+Response:
+{
+  "statusCode": 200,
+  "headers": {
+    "Content-Type": "application/json",
+    "Access-Control-Allow-Origin": "*"
+  },
+  "body": "{\"endpoint\": \"cbc-ddp-ep-251226080355\", \"input\": {\"s3_uri\": \"s3://sagemaker-us-east-1-354600943736/capstone-bin-count/20251225-063820/data/test/3/00198.jpg\"}, \"result\": {\"predicted_label\": \"3\", \"predicted_index\": 2, \"confidence\": 0.36123961210250854, \"probabilities\": [0.027744213119149208, 0.1155814602971077, 0.36123961210250854, 0.29383385181427, 0.2016008496284485], \"class_labels\": [\"1\", \"2\", \"3\", \"4\", \"5\"]}}"
+}
+
+
+Status: Succeeded
+Test Event Name: HTTP_URL
+
+Response:
+{
+  "statusCode": 200,
+  "headers": {
+    "Content-Type": "application/json",
+    "Access-Control-Allow-Origin": "*"
+  },
+  "body": "{\"endpoint\": \"cbc-ddp-ep-251226080355\", \"input\": {\"image_url\": \"https://aft-vbi-pds.s3.amazonaws.com/bin-images/100313.jpg\"}, \"result\": {\"predicted_label\": \"5\", \"predicted_index\": 4, \"confidence\": 0.42535266280174255, \"probabilities\": [0.03387201204895973, 0.09150319546461105, 0.20357608795166016, 0.245696023106575, 0.42535266280174255], \"class_labels\": [\"1\", \"2\", \"3\", \"4\", \"5\"]}}"
+}
+
+Status: Succeeded
+Test Event Name: API_Gateway_style
+
+Response:
+{
+  "statusCode": 200,
+  "headers": {
+    "Content-Type": "application/json",
+    "Access-Control-Allow-Origin": "*"
+  },
+  "body": "{\"endpoint\": \"cbc-ddp-ep-251226080355\", \"input\": {\"image_url\": \"https://aft-vbi-pds.s3.amazonaws.com/bin-images/100313.jpg\"}, \"result\": {\"predicted_label\": \"5\", \"predicted_index\": 4, \"confidence\": 0.42535266280174255, \"probabilities\": [0.03387201204895973, 0.09150319546461105, 0.20357608795166016, 0.245696023106575, 0.42535266280174255], \"class_labels\": [\"1\", \"2\", \"3\", \"4\", \"5\"]}}"
+}

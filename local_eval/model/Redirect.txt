@@ -1,0 +1,1 @@
+Since GitHub blocks files larger than 100 MiB, Please run your own model and the relevant local prediction cell in the notebook, that will download the model to this location.
